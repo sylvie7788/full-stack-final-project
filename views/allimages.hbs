@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <h2 class="display-2 text-center">All IMAGES PAGE</h2>
+    </div>
+
+        <div class="row">
+        <h3 class="display-3 text-center">Welcome  {{currentUser.username}}, you can see all photos here! </h3>
+    </div>
+</div>
+
+
+<div class="container">
+    <form action="" method="get">
+        Filter Here :  imgName <input type="text" name="imgName" id="">
+        <input type="submit" name-"filter">
+    </form>
+</div>
+
+<div class="container">
+
+    <table>
+        <th>imgName</th>
+        <th>imgMessage</th>
+        <th>imgURL</th>
+
+    {{#each data}}
+        <tr>
+            <td>{{imgName}} </td>
+            <td>{{imgMessage}} </td>  
+            <td><img src = "{{imgURL}}" alt="picture unloaded" ></img></td>
+        </tr>
+    {{/each}}
+    </table>
+
+</div>

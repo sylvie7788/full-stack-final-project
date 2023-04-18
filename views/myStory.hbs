@@ -1,0 +1,27 @@
+
+
+<div class="container">
+    <div class="row">
+        <h1 class="display-1 text-center">Here's your exclusive story! {{currentUser.username}}'s Story </h1>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <table>
+        <th>Storyname</th>
+        <th>Images:</th>
+    {{#each data}}
+        <tr>
+            <td>{{storyName}} </td>
+            {{#each imgList}}
+                <td>   
+                    <img src ="{{imgURL}}"></img>
+                    <br>{{imgMessage}}</br>
+                </td>
+            {{/each}}
+        </tr>
+    {{/each}}
+    </table>
+
+</div>

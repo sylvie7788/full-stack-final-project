@@ -1,0 +1,97 @@
+
+
+<div class="container">
+    <div class="row">
+        <h1 class="display-1 text-center">CREATION PAGE</h1>
+    </div>
+
+    <div class="row">
+        <h2 class="display-2 text-center">Welcome user: {{currentUser.username}} <h2>
+    </div>
+
+    <div class="row">
+        <h2 class="display-2 text-center">{{invalidInput}} <h2>
+    </div>    
+</div>
+
+
+<div class="container">
+    <form method="POST" action="">
+
+            <div class="row">
+                <h2 class="display-2"> Story Name: </h2>
+            </div>
+
+            <div class="row">
+                <h2 class="display-2">
+                <input type="text" name="storyName">
+                </h2>
+            </div>
+
+            <div class="row">
+                {{!-- <h2 class="display-2">IMAGE 1:</h2>    --}}
+                <div class="col">
+                    <h2 class="display-2">
+                        img1Name: <input  type="text" name="img1Name">
+                    </h2>
+                </div>
+                <div class="col">
+                    <h2 class="display-2">
+                        img1URL: <input type="text" name="img1URL">
+                    </h2>
+                </div>     
+                <div class="col">
+                    <h2 class="display-2">
+                        img1Message: <input type="text" name="img1Message">
+                    </h2>
+                </div>   
+            </div>
+
+            <div class="row">
+                {{!-- <h2 class="display-2">IMAGE 2:</h2>    --}}
+                <div class="col">
+                    <h2 class="display-2">
+                        img2Name: <input type="text" name="img2Name">
+                    </h2>
+                </div>
+                <div class="col">
+                    <h2 class="display-2">
+                        img2URL: <input type="text" name="img2URL">
+                    </h2>
+                </div>     
+                <div class="col">
+                    <h2 class="display-2">
+                        img2Message: <input type="text" name="img2Message">
+                    </h2>
+                </div>   
+            </div>        
+
+            <div class="row">
+                {{!-- <h2 class="display-2">IMAGE 3:</h2>    --}}
+                <div class="col">
+                    <h2 class="display-2">
+                        img3Name: <input type="text" name="img3Name">
+                    </h2>
+                </div>
+                <div class="col">
+                    <h2 class="display-2">
+                        img3URL: <input type="text" name="img3URL">
+
+                    </h2>
+                </div>     
+                <div class="col">
+                    <h2 class="display-2">
+                        img3Message: <input type="text" name="img3Message">
+                    </h2>
+                </div>   
+            </div>        
+
+        <div class="row">
+            <button type="submit" class="btn btn-warning btn-lg">
+                <h2 class="display-2">CREATE</h2>
+            </button>
+        </div>
+    </form>
+</div>
+
+

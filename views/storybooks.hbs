@@ -1,0 +1,39 @@
+
+<h4 class="display-4 text-center">Welcome  {{currentUser.username}} ! You can see everybody's stories here!</h2>
+
+
+<div class="container-fluid">
+    <form action="" method="get">
+        Filter Here :  storyName <input type="text" name="storyName" id="">
+        <input type="submit" name-"filter">
+    </form>
+</div>
+
+
+
+<div class="container-fluid">
+
+    {{#each data}}
+        <div class="row gx-3 gy-3 bg-warning">
+                <h1 class="display-1 text-center"> STORY NAME: {{storyName}} </div>
+        </div>
+        <div class="row gx-4 gy-5" style="width:200rem"  >
+                {{#each imgList}}
+                <div class="col">
+                    <div class="card my-3 " style="width: 40rem">
+                        <img class="card-img-top" src="{{imgURL}}" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text">{{imgMessage}}</p>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    {{/each}} 
+</div>
+
+
+
+
