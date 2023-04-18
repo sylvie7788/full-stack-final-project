@@ -1,0 +1,39 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "The content below is an example project proposal / requirements document. Replace the text below the lines marked \"__TODO__\" with details specific to your project. Remove the \"TODO\" lines.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-034-fall-2020/sylvie7788-final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-034-fall-2020/sylvie7788-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-034-fall-2020/sylvie7788-final-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.5.3",
+    "connect-mongo": "^3.2.0",
+    "connect-mongodb-session": "^2.4.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.15",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "path": "^0.12.7",
+    "popper": "^1.0.1"
+  }
+}
